@@ -1,0 +1,16 @@
+{% extends 'main/base.html' %}
+
+{% block title %}
+Удаление заявления
+{% endblock %}
+
+{% block content %}
+<div class="features">
+    <h1>Удаление заявления</h1>
+    <form method="post">
+        {% csrf_token %}
+        <p>Действительно хотите удалить заявления?</p>
+        <button class="btn btn-success" type="submit">Удалить заявление</button>
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display: inkin-blok;
+    margin-left: 10px;
+
+}
+.header{
+    width: 1280px;
+    height: 80px;
+    background-color: #e8e0da;
+    font-size: 20px;
+    padding-top: 20px;
+}
+button{
+    width: 133px;
+    height: 42px;
+    top: 435px;
+    left: 254px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #94ccd1;
+
+}
+h1{
+    margin-left: 20px;
+    margin: 10px;
+}
+.block{
+    width: 500px;
+    height: 90px;
+    background-color: #94ccd1;
+    border: 0 ;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left:10px;
+    margin-left:5px;
+}
+form input{
+    width: 500px;
+    padding: 5px;
+    border-radius: 5px;
+}
+form textarea{
+    margin-top: 10px;
+    width: 500px;
+    height: 100px;
+    border-radius: 10px;
+    padding: 5px;
+}
+form select{
+    padding: 5px;
+    border-radius: 5px;
+    height:30px;
+    margin-bottom: 10px;
+}
+.features p{
+    margin-bottom: 10px;
+}
